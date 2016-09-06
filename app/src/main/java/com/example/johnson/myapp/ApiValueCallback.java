@@ -8,6 +8,7 @@ import okhttp3.Response;
 
 /**
  * Created by Johnson on 2016/8/29.
+ * 此处重写Callback方法,设置回调ApiValue
  */
 public abstract class ApiValueCallback extends Callback<ApiValue> {
     @Override
