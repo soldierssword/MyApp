@@ -14,7 +14,7 @@ public abstract class ApiValueCallback extends Callback<ApiValue> {
     @Override
     public ApiValue parseNetworkResponse(Response response, int i) throws Exception {
         String string=response.body().string();
-        ApiValue apiValue = new Gson().fromJson(string,ApiValue.class);
+        ApiValue apiValue = new Gson().fromJson(string,ApiValue.class);//json解析器初始化
         return apiValue;
     }
 }

@@ -94,6 +94,7 @@ public class FragmentPage2 extends Fragment {
                 i=position;
                 spinner2.setAdapter(new ArrayAdapter<>(getContext(),android.R.layout.simple_list_item_1,s2[position]));
                 spinner3.setAdapter(new ArrayAdapter<>(getContext(),android.R.layout.simple_list_item_1,s2[position]));
+                handle_Sp_and_Ed_Change();
             }
 
             @Override
