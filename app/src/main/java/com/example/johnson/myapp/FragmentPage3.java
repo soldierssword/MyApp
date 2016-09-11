@@ -114,7 +114,7 @@ public class FragmentPage3 extends Fragment {
                 .execute(new ApiValueCallback() {
                     @Override
                     public void onError(Call call, Exception e, int i) {
-                        Toast.makeText(getActivity(), "网络异常", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "q", Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
